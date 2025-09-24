@@ -21,41 +21,6 @@ It is designed to provide a seamless shopping experience with a professional UI 
 
 ---
 
-## 🗂️ Project Structure
-
-src/
-│── assets/ # Images & static assets
-│── components/ # Reusable UI components
-│ ├─ Header.jsx
-│ ├─ Footer.jsx
-│ ├─ ProductCard.jsx
-│ ├─ ProductGrid.jsx
-│ ├─ ProductSlider.jsx
-│ ├─ CartProduct.jsx
-│ ├─ WishProduct.jsx
-│ ├─ Spinner.jsx
-│ └─ ...
-│
-│── context/ # State management (Context + Reducer)
-│ ├─ AuthContext.jsx
-│ └─ ProductContext.jsx
-│
-│── pages/ # Main pages
-│ ├─ HomePage.jsx
-│ ├─ ProductPage.jsx
-│ ├─ ProductDetails.jsx
-│ ├─ CartPage.jsx
-│ ├─ WishPage.jsx
-│ ├─ Contact.jsx
-│ ├─ Login.jsx
-│ ├─ NotFound.jsx
-│ └─ ProtectedRoute.jsx
-│
-│── App.jsx
-│── main.jsx
-│── index.css 
-
----
 
 ## 🛠️ Tech Stack
 
