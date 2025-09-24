@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <style>
+    .bgLight { fill: url(#gradLight); }
+    .bgDark { fill: url(#gradDark); }
+    .icon { fill: white; }
+
+    @media (prefers-color-scheme: light) {
+      .bgDark { display: none; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bgLight { display: none; }
+    }
+  </style>
+
+  <defs>
+    <!-- خلفية Light Mode -->
+    <linearGradient id="gradLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <!-- خلفية Dark Mode -->
+    <linearGradient id="gradDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Light background -->
+  <rect class="bgLight" width="128" height="128" rx="28"/>
+  <!-- Dark background -->
+  <rect class="bgDark" width="128" height="128" rx="28"/>
+
+  <!-- App Store style "A" -->
+  <g class="icon">
+    <path d="M64 28 L84 88 H76 L70 72 H58 L52 88 H44 L64 28 Z"/>
+    <rect x="48" y="92" width="32" height="8" rx="4"/>
+  </g>
+</svg>

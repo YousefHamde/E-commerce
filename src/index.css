@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #1173d4;
+}
+
+body {
+  font-family: Inter, "Noto Sans", sans-serif;
+}

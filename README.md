@@ -1,41 +1,12 @@
-# 👗 Fashion Hub - E-Commerce React App
+# React + Vite
 
-**Fashion Hub** is a complete **E-Commerce web application** built with **React + Vite** and styled using **Tailwind CSS**.  
-The project delivers a **modern, responsive design** with secure authentication, protected routes, and advanced state management using **Context API + Reducer**.  
-It is designed to provide a seamless shopping experience with a professional UI and smooth UX.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✨ Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🔐 **Authentication & Protected Routes**: Secure login system with restricted access to private pages.  
-- 📝 **Formik + Yup Forms**: Elegant forms (Login, Register, Checkout) with instant validation and error handling.  
-- 🛒 **Shopping Cart**: Add, remove, and update product quantities with dynamic total calculation.  
-- 💖 **Wishlist**: Save favorite products for quick access.  
-- 📱 **Responsive Design**: Fully optimized for mobile, tablet, and desktop.  
-- 🎨 **Modern UI with Tailwind CSS**: Clean, consistent, and professional design system.  
-- 📩 **Contact Form with EmailJS**: Send messages directly to email without the need for a backend.  
-- 🛍️ **Product Details Page**: Showcase product info, gallery, reviews, and easy cart/wishlist actions.  
-- ❌ **Custom 404 Page**: Professionally designed Not Found page.  
-- ⚛️ **Context + Reducer**: Manage Auth, Cart, Wishlist, and Products state in a scalable and organized way.  
+## Expanding the ESLint configuration
 
----
-
-
-## 🛠️ Tech Stack
-
-- **React (Vite)** → Modern and fast frontend framework.  
-- **React Router DOM** → Navigation with protected routes.  
-- **Tailwind CSS** → Responsive and professional styling.  
-- **Formik + Yup** → Form handling and validation.  
-- **Context API + useReducer** → State management for Auth, Cart, Wishlist, and Products.  
-- **EmailJS** → Send contact form messages directly to email.  
-- **ESLint** → Code quality and linting.  
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Install dependencies
-```bash
-npm install
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
